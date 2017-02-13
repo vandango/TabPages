@@ -2,8 +2,8 @@
 Small component to enable tabbing pages with Bootstrap 4 cards (or some other paging elements).
 
 
-<strong>HTML</strong>
-<code>
+#### HTML
+```html
 <div class="card text-center" data-tabs="myTabPage">
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
@@ -28,10 +28,10 @@ Small component to enable tabbing pages with Bootstrap 4 cards (or some other pa
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
-</code>
+```
 
-<strong>JavaScript Call</strong>
-<code>
+#### JavaScript Call
+```javascript
 $(function() {
   // Initialisieren, ohne Objekt möglich
   TabPages.init('myTabPage');
@@ -45,4 +45,4 @@ $(function() {
   myTabElement.initTabs();
   myTabElement.selectTab('page3');
 });
-</code>
+```
