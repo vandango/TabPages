@@ -33,14 +33,14 @@ Small component to enable tabbing pages with Bootstrap 4 cards (or some other pa
 #### JavaScript Call
 ```javascript
 $(function() {
-  // Initialisieren, ohne Objekt möglich
+  // basic initialization, without object possible
   TabPages.init('myTabPage');
 
-  // Um eine Page vor zu selektieren, braucht man das Objekt aber
+  // to pre-select you need the object itself
   var tab = TabPages.init('myTabPage');
   tab.selectTab('page3');
   
-  // geht auch klassisch
+  // or do it the classic way
   var myTabElement = new TabPages('myTabPage');
   myTabElement.initTabs();
   myTabElement.selectTab('page3');
