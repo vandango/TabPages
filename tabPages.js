@@ -33,7 +33,7 @@ TabPages.prototype = {
 	},
 	
 	init: function(tabElement) {
-		var myTabElement = new TabPages('myTabPage');
+		var myTabElement = new TabPages(tabElement);
 		myTabElement.initTabs();
 		return myTabElement;
 	}
